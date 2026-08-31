@@ -4,8 +4,14 @@ Homebrew casks published from this account.
 
 ```sh
 brew tap marmyx77/tap
+brew trust marmyx77/tap
 brew install --cask lampboard
 ```
+
+Since Homebrew 6 a cask from a third-party tap is refused until the tap is
+trusted. Without the middle line the install ends at *Refusing to load cask …
+from untrusted tap*, which names neither the cask nor anything a newcomer can
+act on.
 
 **[LampBoard](https://github.com/marmyx77/lampboard)** — a floating column of
 traffic lights that tells you, at a glance, what state your coding sessions are
