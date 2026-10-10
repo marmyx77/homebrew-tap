@@ -1,7 +1,7 @@
 # Cask template for marmyx77/homebrew-tap (Casks/lampboard.rb).
 #
-# Rendered by `Scripts/make-cask.sh` from a published release: 1.4.1 and
-# b802130735156a15d51c1b6820deca7e47a688c576d75d386b5d056bf2bcc2d0 are the tag and the disk image's checksum. Two placeholders and
+# Rendered by `Scripts/make-cask.sh` from a published release: 1.4.2 and
+# 9d6ae4531350415d8350654453e645f281ffcace76f70ba9b0ea1254d2125026 are the tag and the disk image's checksum. Two placeholders and
 # `sed`, not `envsubst` — gettext is not on a clean Mac, and a release script
 # that fails on the machine cutting the release is worse than one extra sed.
 #
@@ -10,8 +10,8 @@
 # Measured before choosing it: `lampboard status` behaves identically run
 # through a symlink outside the bundle and run inside it.
 cask "lampboard" do
-  version "1.4.1"
-  sha256 "b802130735156a15d51c1b6820deca7e47a688c576d75d386b5d056bf2bcc2d0"
+  version "1.4.2"
+  sha256 "9d6ae4531350415d8350654453e645f281ffcace76f70ba9b0ea1254d2125026"
 
   url "https://github.com/marmyx77/lampboard/releases/download/v#{version}/LampBoard-#{version}.dmg"
   name "LampBoard"
